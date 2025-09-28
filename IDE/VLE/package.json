@@ -1,0 +1,23 @@
+{
+  "name": "vle-project",
+  "version": "1.0.0",
+  "description": "Virtual Learning Environment project",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo 'VLE Project started'",
+    "dev": "echo 'Development mode'",
+    "build": "echo 'Building project'",
+    "test": "echo 'Running tests'"
+  },
+  "keywords": [
+    "vle",
+    "virtual-learning",
+    "education"
+  ],
+  "author": "m.reza qeta",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/vle-project.git"
+  }
+}

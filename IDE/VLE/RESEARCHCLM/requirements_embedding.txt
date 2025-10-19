@@ -1,0 +1,25 @@
+# Requirements for PDF Embedding System
+# Policy Maker & Behavioral Science Content Extraction
+
+# Core PDF Processing
+PyPDF2>=3.0.0
+
+# Embedding Models (RECOMMENDED)
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# Vector Database
+chromadb>=0.4.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Optional but recommended
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Alternative embedding providers (optional)
+# openai>=1.0.0  # For OpenAI embeddings
+# cohere>=4.0.0  # For Cohere embeddings
+

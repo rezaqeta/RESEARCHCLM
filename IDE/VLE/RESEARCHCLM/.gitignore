@@ -1,0 +1,183 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+academia-mcp-env/
+llamaindex_env/
+llamaindex_clean/
+pptx_env/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+.kilocode/
+.playwright-mcp/
+.vincent/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.temp
+
+# Logs and debug files
+*.log
+debug.log
+logs/
+
+# Cache and temporary files
+*.cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Large data files and PDFs
+*.pdf
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar.bz2
+*.exe
+*.msi
+*.apk
+*.dmg
+*.iso
+
+# Media files
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.flv
+*.mp3
+*.wav
+*.flac
+*.aac
+*.m4a
+*.opus
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+*.ico
+
+# Office documents (keep only essential ones)
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.pptx
+*.ppt
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Research specific
+artifacts/
+metadata/
+TEXT/
+sources/
+case_study/
+other_sources/
+scripts/
+test_pdf_index_*/
+download_tasks.json
+
+# Temporary and generated files
+temp_block.txt
+extracted_pdf_text.txt
+pdf_extracted_text.txt
+search_results.txt
+failed_pdfs_*.txt
+
+# Large CSV files with research data
+all200.csv
+complete_200_results.csv
+diverse_results.csv
+excel_missing_pdfs.csv
+missing_pdfs_summary.csv
+results_*.csv
+test_*.csv
+
+# JSON files with large data
+policy_behavioral_chunks.json
+test_pdf_chunks_*.json
+
+# Excel files with research data
+Climate_Behavioral_Change_Papers.xlsx
+research_reports_database.xlsx
+source_main_cb.xlsx
+
+# Persian/Unicode files that might cause issues
+*فارسی*
+*persian*
+*فارسی*
+
+# MCP server related
+vibe-check-mcp-server/
+pdf-reader-mcp/
+
+# Specific large files to exclude
+Persian_Summary_Rent_Dependency.pdf
